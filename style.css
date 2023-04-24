@@ -1,0 +1,31 @@
+.invest {
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.caption {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+.invest_form {
+    display: flex;
+    flex-direction: column;
+}
+.amount__capture{
+    text-transform: uppercase;
+}
+.contact__label {
+    text-transform: uppercase;
+}
+.send {
+    text-transform: uppercase;
+}
+.choise__custom {
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}

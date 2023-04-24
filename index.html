@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="invest">
+        <div class="caption">
+            <h3 class="caption__description">інвестиції</h3>
+            <h2 class="caption__tiile">зробити — інвестиції у програму</h2>
+            <p class="caption__text">виберіть спосіб оплати</p>
+        </div>
+        <div class="invest_form">
+        <form action="result.html" method="post">
+            <div class="way">
+                <input class="way__input" type="radio" name="payment" id="card">
+                <label class="way__label" for="card">Банківська карта</label>
+                <input class="way__input" type="radio" name="payment" id="paypal">
+                <label class="way__label" for="paypal">PayPal</label>
+                <input class="way__input" type="radio" name="payment" id="bank">
+                <label class="way__label" for="bank">Банківська платіжна квитанція</label>
+            </div>
+            <div class="amount">
+                <h3 class="amount__capture">банківська карта</h3>
+                <div class="choise">
+                    <button class="choise__button">50000</button>
+                    <button class="choise__button">30000</button>
+                    <button class="choise__button">10000</button>
+                    <button class="choise__button">1000</button>
+                    <textarea class="choise__custom" cols="10" rows="1">Інша сумма</textarea>
+                </div>
+
+            </div>
+            <div class="period">
+                <input class="period__input" type="radio" name="time" id="month">
+                <label class="period__label" for="month">Щомісячно</label>
+                <input class="period__input" type="radio" name="time" id="once">
+                <label class="period__label" for="once">Одноразово</label>
+            </div>
+            <div class="contact">
+                <label class="contact__label" for="login">ім’я
+                <input class="contact__input" type="name" name="login" placeholder="Напишіть ваше ім’я">
+                </label>
+                <label class="contact__label" for="email">Email
+                <input class="contact__input" type="email" name="email" placeholder="Напишіть вашу електронну адресу">
+                </label>
+            </div>
+            <div class="agreements">
+                <input class="agreements__input" type="checkbox" name="first" id="first" required>
+                <label class="agreements__label" for="first">Я приймаю <a href="#">Договір оферти</a></label>
+                <input class="agreements__input" type="checkbox" name="second" id="second" required>
+                <label class="agreements__label" for="second">Я приймаю <a href="#">Угоду про використання 
+                    персональних даних</a></label>
+            </div>
+
+            <button class="send">відправити</button>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -31,6 +31,7 @@
     align-items: flex-end;
     justify-content: space-evenly;
     min-height: 1000px;
+
 }
 .choise__button{
     border: none;
@@ -38,8 +39,12 @@
     font-size: 16px;
     border: 1px solid #00000026;
     height: 50px;
-    width: 160px; 
+    width: 150px; 
     padding: 0px;
+}
+.choise__button:active {
+    background: #0536FC;
+    border: 1px solid #0536FC;
 }
 .choise__custom {
     display: flex;
@@ -75,9 +80,56 @@
 }
 .send {
     text-transform: uppercase;
+    border: none;
+    background: #0536FC;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 50px;
+    width: 150px; 
+    margin-top: 50px;
 }
 
 .agreements {
     display: flex;
     flex-direction: column;
+}
+.label_nolink {
+    text-decoration: none;
+    color: #0536FC;
+    padding: 5px;
+}
+.way {
+    padding-bottom: 50px;
+}
+.way__input {
+    margin-right: 15px;
+}
+.way__label {
+    margin-right: 30px;
+}
+.amount {
+    padding-bottom: 20px;
+}
+.period {
+    padding-bottom: 50px;
+}
+.period__input {
+    margin-right: 15px;
+}
+.period__label {
+    margin-right: 30px;
+}
+.contact__label {
+    padding-bottom: 20px;
+}
+.contact__input {
+    margin-bottom: 36px;
+}
+.agreements__input {
+    margin-bottom: 16px;
+    margin-right: 10px;
+}
+@media all and (max-width: 780px) {
+    
 }

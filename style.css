@@ -100,7 +100,9 @@
     padding: 5px;
 }
 .way {
+    display: flex;
     padding-bottom: 50px;
+    
 }
 .way__input {
     margin-right: 15px;
@@ -112,6 +114,7 @@
     padding-bottom: 20px;
 }
 .period {
+    display: flex;
     padding-bottom: 50px;
 }
 .period__input {
@@ -131,5 +134,32 @@
     margin-right: 10px;
 }
 @media all and (max-width: 780px) {
-    
+    .caption {
+        padding-left: 10px;
+    }
+    .way {
+        display:flex;
+        flex-direction: column;
+    }
+    .period {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 320px) {
+    .invest {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .caption {
+        padding-left: 10px;
+    }
+    .way {
+        display:flex;
+        flex-direction: column;
+    }
+    .period {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -18,12 +18,19 @@
         <div class="invest_form">
         <form action="result.html" method="post">
             <div class="way">
-                <input class="way__input" type="radio" name="payment" id="card">
-                <label class="way__label" for="card">Банківська карта</label>
-                <input class="way__input" type="radio" name="payment" id="paypal">
-                <label class="way__label" for="paypal">PayPal</label>
-                <input class="way__input" type="radio" name="payment" id="bank">
-                <label class="way__label" for="bank">Банківська платіжна квитанція</label>
+                <div>
+                    <input class="way__input" type="radio" name="payment" id="card">
+                    <label class="way__label" for="card">Банківська карта</label>
+                </div>
+                <div>
+                    <input class="way__input" type="radio" name="payment" id="paypal">
+                    <label class="way__label" for="paypal">PayPal</label>
+                </div>
+                <div>
+                    <input class="way__input" type="radio" name="payment" id="bank">
+                    <label class="way__label" for="bank">Банківська платіжна квитанція</label>
+                </div>
+                
             </div>
             <div class="amount">
                 <h3 class="amount__capture">банківська карта</h3>
@@ -37,10 +44,15 @@
 
             </div>
             <div class="period">
-                <input class="period__input" type="radio" name="time" id="month">
-                <label class="period__label" for="month">Щомісячно</label>
-                <input class="period__input" type="radio" name="time" id="once">
+                <div>
+                    <input class="period__input" type="radio" name="time" id="month">
+                    <label class="period__label" for="month">Щомісячно</label>
+                </div>
+                <div>
+                    <input class="period__input" type="radio" name="time" id="once">
                 <label class="period__label" for="once">Одноразово</label>
+                </div>
+            
             </div>
             <div class="contact">
                 <label class="contact__label" for="login">ім’я</label>

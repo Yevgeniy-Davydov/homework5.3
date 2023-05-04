@@ -42,9 +42,10 @@
     width: 150px; 
     padding: 0px;
 }
-.choise__button:active {
-    background: #0536FC;
+.choise__button:hover {
+    background-color: #0536FC;
     border: 1px solid #0536FC;
+    color: white;
 }
 .choise__custom {
     display: flex;
